@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Vedansh sir</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form</h1>
+        <form>
+            <label for="name">Full name</label><br>
+            <input type="text" id="name" name="name" class="mak" required><br>
+            <label for="phone">Phone</label><br>
+            <input type="number" id="phone" name="phone" class="mak" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" class="mak" required><br>
+    
+            <div class="radio-button">
+                <h2>Orthodantic Treatment Modality</h2>
+                <label class="radiobtn">
+                    <input type="radio" name="radio" id="labial" class="radioButton">Labial Brace
+                </label>
+    
+                <label class="radiobtn">
+                    <input type="radio" name="radio" id="clear" class="radioButton">Clear Alingner
+                </label>
+    
+                <label class="radiobtn">
+                    <input type="radio" name="radio" id="lingual" class="radioButton">Lingual Brace
+                </label>
+    
+            </div>
+
+            <div class="hidfirst">
+                <label for="hiddenFirst" class="firstheading">Clear Aligner Plan Sent to Manufacturer</label><br>
+                <select id="hiddenFirst" name="lingual" class="mak1">
+                    <option value="Clear">Clear Alinger Plan Modification 1</option>
+                    <option value="Clear">Clear Alinger Plan Modification 2</option>
+                    <option value="Clear">Clear Alinger Plan Modification 3</option>
+                    <option value="Clear">Clear Alinger Plan Modification 4</option>
+                  </select>
+            </div>
+                
+                
+            <div class="hidsecond">
+                <label for="hiddenSecond" class="firstheading"  id="hidsecond">Lingual Braces Plan Sent to Manufacturer</label><br>
+                <select id="hiddenSecond" name="lingual" class="mak1">
+                    <option value="Lingual">Lingual Braces Plan Modification 1</option>
+                    <option value="Lingual">Lingual Braces Plan Modification 2</option>
+                    <option value="Lingual">Lingual Braces Plan Modification 3</option>
+                    <option value="Lingual">Lingual Braces Plan Modification 4</option>
+                  </select>
+            </div>
+
+            <div class="radioSecond">
+                <input type="checkbox" id="metal" name="metal" >
+                <label for="checkbox"> Orthodantic Apptiance Approved</label><br>
+            </div>
+            <button class="sub">Submit</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
